@@ -15,7 +15,7 @@ spec:
         app: rails
     spec:
       containers:
-        - image: asia.gcr.io/utopian-button-216916/rails2:v2
+        - image: busybox
           name: rails
           env:
             - name: RAILS_ENV
