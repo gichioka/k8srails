@@ -1,24 +1,9 @@
-# README
+rubyonrailsをkubernetesでdeploy
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+version (ruby2.6.1,rails5.2.2.1,mysql5.6)
 
-Things you may want to cover:
+必要なもの
 
-* Ruby version
+クラスター作成後 gcloud compute disks create --size 200GB mysql-data
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+secret.ymlは個人で作成してください。
